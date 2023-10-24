@@ -1,0 +1,15 @@
+
+server:
+    port: 8081
+
+#database
+spring:
+    datasource:
+        url: jdbc:postgresql://psqlsr-asp-eiyu-desa-230824.postgres.database.azure.com:5432/asp_azul
+        username: disruptinglrodriguez
+        password: gVgvyArFLo4u
+    jpa:
+        hibernate:
+            ddl-auto: none
+            dialect: org.hibernate.dialect.PostgreSQLDialect
+        database-platform: org.hibernate.dialect.PostgreSQLDialect
